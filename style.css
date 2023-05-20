@@ -1,0 +1,371 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    
+}
+
+.contenedor{
+    display: grid;
+    grid-template-areas: 
+    'A A A A'
+    'D B B B'
+    'D C C C'
+    'E E E E'
+    ;
+}
+
+header{
+    grid-area: A;
+
+ }
+
+main{
+    grid-area: C;
+    align-items: center;
+    
+    
+}
+.Titulo{
+    
+    text-align: center;
+    color: #056fbc;
+    margin: 10px;
+    padding: 5px;
+
+}
+.titulo{
+    text-align: center;
+    color: black;
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+}
+.imginicio{
+    width: 45%;
+    position: relative;
+    border-radius: 80px;
+}
+.imginicio2{
+    display:flexbox;
+    width: 45%;
+    left: 98px;
+    top: 15px;
+    position: relative;
+    border-radius: 80px;
+}
+.selecCSS{
+    width: 45%;
+    position: relative;
+    border-radius: 30px;
+}
+ .selector{
+
+    width: 45%;
+    position: relative;
+    border-radius: 30px;
+ }
+
+ .imsSelector{
+    width: 45%;
+    position: relative;
+    border-radius: 30px;
+ }
+ .imgaudio{
+    width: 45%;
+    position: relative;
+    border-radius: 30px;
+
+ }
+.Encabezado{
+    
+    position:relative;
+    margin: 2px;
+    
+}
+
+.logo{
+    position: relative;
+    margin:2px;
+    height: 150px;
+    border-bottom: 2px solid#F4B945;
+    width: 100%;
+}
+nav{
+    grid-area: B;
+    position: absolute;
+    top:180px;
+    right: 160px;
+    
+    
+}
+nav li{
+    display: inline;
+    margin: 0px 0px 0px 15px;
+    list-style: none;
+    background-color: #056fbc;
+    margin: 5px 5px 5px 5px;
+    border: 2px solid #F4B945;
+    padding: 2px 5px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    
+
+}
+
+nav a{
+    text-transform:inherit;
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #F4B945;
+    text-decoration: underline;
+}
+
+aside{
+    grid-area: D;
+    position: relative;
+    top:5px;
+    left: 5px;
+    text-align: center;
+    display:block ;
+    padding: 2px;
+    
+   
+    
+}
+
+aside li{
+    list-style: none;
+    background-color: #056fbc;
+    margin: 5px 5px 5px 5px;
+    border: 2px solid #F4B945;
+    padding: 2px 5px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    
+}
+aside a{
+   
+    text-transform:inherit;
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    border: #F4B945;
+    padding: 5px 5px ;
+    margin: 5px;
+    text-align: center;
+
+}
+aside a:hover{
+    color: #F4B945;
+    text-decoration: underline;
+}
+
+.btn-group{
+    position: relative;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 10px;
+    height: 40px;
+    width: 154px;
+   
+}
+
+.menu-vertical{
+    position: relative;
+    display: grid;
+    grid-template-areas: 
+    'A A '
+    'A B '
+    'A C '
+    'A D '
+}
+
+.menu-vertical{
+    grid-area: 'A';
+    margin: 20px 20px 5px 5px;
+    padding: 2px;
+    border-radius: 30px;
+    
+
+}
+
+
+footer{
+    grid-area: E;
+    text-align: center;
+    background: url(img/bg.jpg);
+    padding: 20px;
+    
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
+.conocimientos{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
+.cssgrid{
+    width: 280px;
+    float:left;
+    margin: 0 20px 20px 0;
+   
+    
+}
+.texto{
+    width: 400px;
+    float:left;
+    margin: 0px 0px 20px 20px;
+    width:70%;
+}
+
+.titulo a {
+    text-decoration: none;
+}
+.titulo a:hover{
+    text-decoration: underline;
+    color: #F4B945;
+}
+.conceptos{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.info{
+   
+    color:#056fbc;
+    font-size: 24px;
+    position: relative;
+    margin: 5px;
+    border: 5px solid #F4B945;
+    padding: 5px;
+    width: 35%;
+    display: block;
+    background-color: #f9e3b8;
+    border-radius: 20px;
+    
+
+}
+
+.mockup{
+
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.titulomockup{
+    text-align: center;
+    color: #056fbc;
+    font-size: 28px;
+    padding: 10px;
+    
+}
+
+.css-grid2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin: 0 20px 20px 0;
+
+}
+
+.CSS-GRID{
+    text-align: center;
+    color: #056fbc;
+    font-size: 28px;
+    padding: 10px;
+}
+
+.SELECTORCSS{
+    text-align: center;
+    color: #056fbc;
+    font-size: 28px;
+    padding: 10px;
+}
+
+.audio{
+    display: flex;
+    
+}
+
+.andres{
+    border-radius: 100px;
+    width: 40%;
+
+}
+
+.andres:hover{
+    width: 44%;
+
+}
+
+.jesica{
+    border-radius: 100px;
+   width: 30%;
+    
+}
+
+.jesica:hover{
+    width: 34%;
+}
+
+.Nosotros{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+    color: #056fbc;
+    font-size: 20px;
+}
+
+.Nosotros li{
+    display: inline-block;
+    text-align: center;
+    width: 35%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.Nosotros li:hover{
+    border-color:#F4B945;
+}
+.Nosotros{
+    font-size: 14px;
+    color:#056fbc;
+}
+
+.Nosotros :hover{
+    font-size: 15px;
+    color: #F4B945;
+}
+.Nosotros h2{
+    color:#056fbc ;
+    font-size: 30px;
+}
+
+.Nosotros h2:hover{
+    color: #F4B945;
+    font-size: 33px;
+
+
+}
+@media screen and (max-width: 800px) {
+    .contenedor{
+        margin: 1em 2em;
+    }
+    
+}

@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../fase4.html/audio"
+		},
+		{
+			"path": "../fase4.html/DSW-fase4"
+		},
+		{
+			"path": "../fase4.html/img"
+		},
+		{
+			"path": "../fase4.html/js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "js"
+	}
+}
